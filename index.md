@@ -1,6 +1,6 @@
 #  About Me
-##  Birthplace
-##  Education
+##  Birthplace   Shanxi Province
+##  Education   Central South University -Bachelor（2015-2019）
 <table border="0">
   <tr>
     <td width="75%">
