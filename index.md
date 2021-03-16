@@ -15,218 +15,126 @@
     </td>
   </tr>
 </table>
-<div id="atari">
-  <div class="icon">
-    <div class="side1 side">
-      <div class="atari1"></div>
-      <div class="atari2"></div>
-      <div class="atari3"></div>
-      <div class="atari4"></div>
-    </div>
-    <div class="side2 side">
-      <div class="atari1"></div>
-      <div class="atari2"></div>
-      <div class="atari3"></div>
-      <div class="atari4"></div>
-    </div>
-  </div>
-  <div class="pong">
-    <div class="score1 score"></div>
-    <div class="score2 score"></div>
-    <div class="player1 player"></div>
-    <div class="player2 player"></div>
-    <div class="ball"></div>
-  </div>
+%%%网上查找的一个GIF图%%%
+<div id="magento">
+  <div class="magento1"></div>
+  <div class="magento2"></div>
+  <div class="magento3"></div>
+  <div class="magento4"></div>
+  <div class="magento5"></div>
+  <div class="magento6"></div>
+  <div class="magento7"></div>
+  <div class="magento8"></div>
+  <div class="magento9"></div>
+  <div class="magento10"></div>
 </div>
-#atari,
-.atari2,
-.atari4 {
-  background: #111;
-}
-
-#atari {
-  height: 304px;
+#magento {
+  height: 210px;
   position: relative;
-  width: 540px;
+  width: 178px;
 }
 
-#atari .pong {
-  left: 20px;
+#magento * {
   position: absolute;
-  top: 2px;
 }
 
-#atari .pong * {
+.magento1 {
+  background: #f6844e;
+  height: 104px;
+  position: absolute;
+  top: 26px;
+  transform: skewy(-30deg);
+  width: 89px;
+}
+
+.magento2 {
+  background: #f6844e;
+  height: 104px;
+  left: 89px;
+  position: absolute;
+  top: 26px;
+  transform: skewy(30deg);
+  width: 89px;
+}
+
+.magento3 {
+  background: #f15c22;
+  height: 104px;
+  position: absolute;
+  top: 78px;
+  transform: skewy(30deg);
+  width: 89px;
+}
+
+.magento4 {
+  background: #f15c22;
+  height: 104px;
+  left: 89px;
+  position: absolute;
+  top: 78px;
+  transform: skewy(-30deg);
+  width: 89px;
+}
+
+.magento5,
+.magento6,
+.magento7,
+.magento8,
+.magento9,
+.magento10 {
   background: #fff;
-  position: absolute;
 }
 
-@keyframes ball {
-
-  0%,
-  100% {
-    left: 30px;
-    top: 107px
-  }
-
-  30% {
-    left: 300px;
-    top: 294px
-  }
-
-  50% {
-    left: 464px;
-    top: 192px
-  }
-
-  80% {
-    left: 198px;
-    top: 0px
-  }
-}
-
-@keyframes player1 {
-
-  0%,
-  90%,
-  100% {
-    top: 70px
-  }
-
-  30% {
-    top: 90px
-  }
-
-  50% {
-    top: 80px
-  }
-
-  80% {
-    top: 60px
-  }
-}
-
-@keyframes player2 {
-
-  0%,
-  90%,
-  100% {
-    top: 180px
-  }
-
-  30% {
-    top: 200px
-  }
-
-  50% {
-    top: 190px
-  }
-
-  80% {
-    top: 160px
-  }
-}
-
-#atari .pong .ball {
-  animation: ball 4s linear 0s infinite normal;
-  height: 6px;
-  left: 300px;
-  top: 294px;
-  width: 6px;
-}
-
-#atari .pong .player {
-  height: 54px;
-  width: 8px;
-}
-
-#atari .pong .player1 {
-  animation: player1 4s linear 0s infinite alternate;
+.magento5 {
+  height: 105px;
   left: 22px;
-  top: 70px;
-}
-
-#atari .pong .player2 {
-  animation: player2 4s linear 0s infinite normal;
-  left: 470px;
-  top: 180px;
-}
-
-#atari .pong .midfield {
-  height: 240px;
-  left: 247px;
-  top: 30px;
-  width: 6px;
-}
-
-#atari .icon {
-  height: 200px;
-  left: 153px;
-  overflow: hidden;
   position: absolute;
-  top: 52px;
-  width: 234px;
+  top: 72px;
+  transform: skewy(30deg);
+  width: 24px;
 }
 
-#atari .icon * {
+.magento6 {
+  height: 105px;
+  left: 133px;
   position: absolute;
+  top: 72px;
+  transform: skewy(-30deg);
+  width: 24px;
 }
 
-#atari .side2 {
-  left: 234px;
+.magento7 {
+  height: 144px;
+  left: 77px;
   position: absolute;
-  top: 0px;
-  transform: scalex(-1);
+  top: 41px;
+  transform: skewy(30deg);
+  width: 12px;
 }
 
-.atari1,
-.atari3 {
-  background: #fa000f;
-}
-
-.atari1 {
-  height: 200px;
-  left: 85px;
-  width: 32px;
-}
-
-.atari2 {
-  height: 256px;
-  top: -53px;
-  width: 141px
-}
-
-.atari2 {
-  border-radius: 0 0 141px 141px/256px 256px 256px 256px;
-  left: -34px;
-  top: -22px;
-}
-
-.atari3 {
-  border-radius: 0 0 200px 200px/334px 334px 334px 334px;
-  bottom: 0;
-  height: 334px;
-  left: -101px;
-  top: -135px;
-  width: 200px;
-}
-
-.atari4 {
-  border-radius: 0 0 183px 183px/239px 239px 239px 239px;
-  height: 239px;
-  left: -100px;
-  top: -89px;
-  width: 183px;
-}
-
-#atari:after {
-  background-image: linear-gradient(transparent 33%, #111 33%);
-  background-size: 1px 3px;
-  bottom: 0;
-  content: '';
-  left: 0;
-  pointer-events: none;
+.magento8 {
+  height: 144px;
+  left: 89px;
   position: absolute;
-  right: 0;
-  top: 0;
+  top: 41px;
+  transform: skewy(-30deg);
+  width: 12px;
+}
+
+.magento9 {
+  height: 78px;
+  left: 44px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(60deg) skewy(30deg);
+  width: 24px;
+}
+
+.magento10 {
+  height: 78px;
+  left: 111px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-60deg) skewy(-30deg);
+  width: 24px;
 }
