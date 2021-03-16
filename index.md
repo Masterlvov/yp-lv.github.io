@@ -24,7 +24,7 @@ Syntax highlighted code block
       <p><b>地址：长沙市岳麓区中南大学升华3栋</b></p>
     </td>
     <td width="25%">
-      <img src="/zhengjianzhao.jpg" width="100%">      % 插入证件照代码
+      <img src="/IMG20201218160408.jpg" width="100%">      % 插入证件照代码
     </td>
   </tr>
 </table>
