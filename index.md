@@ -1,10 +1,10 @@
 #  About Me
-##  Birthplace   Shanxi Province
-##  Education   Central South University -Bachelor（2015-2019）
 <table border="0">
   <tr>
     <td width="75%">
       <h1>Lv-YongPeng</h1>
+      <p><b> Birthplace:  Shanxi Province</b></p>
+      <p><b> Education:  Central South University -Bachelor（2015-2019）</b></p>
       <p><b>Postgraduate student</b></p>
       <p><b>School of Chemistry and Chemical Engineering, Central South University</b></p>
       <p><b>Email：lvovriddler@gmail.com</b></p>
