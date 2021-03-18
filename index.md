@@ -11,7 +11,7 @@
       <p><b>Adress：Building 3, Shenghua,  Central South University, Yuelu District, Changsha</b></p>
     </td>
     <td width="25%">
-      <img src="/IMG20201218160408.jpg" width="100%">      % 插入证件照代码
+      <img src="/IMG20201218160408.jpg" width="100%">      
     </td>
   </tr>
 </table>
